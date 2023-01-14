@@ -105,11 +105,7 @@ function updateUL(data) {
 					</p>
 					<p class="lang__subt subt">
 						Common Languages:
-						<span class="lang__value value">${
-							Object.values(languages)[1]
-								? Object.values(languages)[0] + ","
-								: ""
-						} ${Object.values(languages)[1]}</span>
+						<span class="lang__value value"> ${Object.values(languages)}</span>
 					</p>
 				</div>`;
 	});
